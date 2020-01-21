@@ -4,7 +4,7 @@ import Backdrop from "../Backdrop/Backdrop";
 
 class Modal extends Component {
   UNSAFE_componentWillUpdate = () => {
-    console.log("Modal will update");
+   /*  console.log("Modal will update"); */
   };
 
   shouldComponentUpdate = (nextProps, nextState) => {
