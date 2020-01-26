@@ -12,6 +12,7 @@ class Modal extends Component {
   };
 
   render() {
+    console.log("CHILDREN", this.props.children);
     return (
       <React.Fragment>
         <Backdrop show={this.props.show} clicked={this.props.modalClosed} />
